@@ -15,22 +15,24 @@ app.use(express.json());
 
 routes(app);
 
-/* const livros = [
+/*
+const livros = [
     {id: 1, "titulo": "Senhor dos Aneis"},
     {id: 2, "titulo": "O Hobbit"}
-] */
+] 
 
-/* app.get('/',(req, res) => {
+    app.get('/',(req, res) => {
     res.status(200).send('Curso de Node');
          
-})  */
+})  
 
 //visualiza todos os livros
-/* app.get('/livros',(req, res) =>{
+    app.get('/livros',(req, res) =>{
     livros.find((err, livros) => {
         res.status(200).json(livros);   
     })
-}) */
+}) 
+*/
 
 //visualiza livro por ID
 app.get('/livros/:id', (req, res) =>{
