@@ -1,4 +1,4 @@
-Instalar nodemon - para ter refresh automatico ao salvar no arquivo do server
+Instalar nodemon - para ter refresh automatico ao salvar arquivos no server
     npm install nodemon@2.0.15 -D
 
 Instalar Express - framework
